@@ -1,0 +1,16 @@
+C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\bin\Debug\net7.0-windows\b209-list-homework-alper-sahin.exe
+C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\bin\Debug\net7.0-windows\b209-list-homework-alper-sahin.deps.json
+C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\bin\Debug\net7.0-windows\b209-list-homework-alper-sahin.runtimeconfig.json
+C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\bin\Debug\net7.0-windows\b209-list-homework-alper-sahin.dll
+C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\bin\Debug\net7.0-windows\b209-list-homework-alper-sahin.pdb
+C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\obj\Debug\net7.0-windows\b209_list_homework_alper_sahin.Form1.resources
+C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\obj\Debug\net7.0-windows\b209-list-homework-alper-sahin.csproj.GenerateResource.cache
+C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\obj\Debug\net7.0-windows\b209-list-homework-alper-sahin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\obj\Debug\net7.0-windows\b209-list-homework-alper-sahin.AssemblyInfoInputs.cache
+C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\obj\Debug\net7.0-windows\b209-list-homework-alper-sahin.AssemblyInfo.cs
+C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\obj\Debug\net7.0-windows\b209-list-homework-alper-sahin.csproj.CoreCompileInputs.cache
+C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\obj\Debug\net7.0-windows\b209-list-homework-alper-sahin.dll
+C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\obj\Debug\net7.0-windows\refint\b209-list-homework-alper-sahin.dll
+C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\obj\Debug\net7.0-windows\b209-list-homework-alper-sahin.pdb
+C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\obj\Debug\net7.0-windows\b209-list-homework-alper-sahin.genruntimeconfig.cache
+C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\obj\Debug\net7.0-windows\ref\b209-list-homework-alper-sahin.dll
