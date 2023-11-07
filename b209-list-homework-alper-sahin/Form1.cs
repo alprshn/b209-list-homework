@@ -1,5 +1,6 @@
 using System.Data;
 using System.Windows.Forms;
+using static System.Windows.Forms.DataFormats;
 
 namespace b209_list_homework_alper_sahin
 {
@@ -53,6 +54,8 @@ namespace b209_list_homework_alper_sahin
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             
+            Form2 f2 = new Form2(); //this is the change, code for redirect  
+            f2.ShowDialog();
         }
 
         private void PopulateDataGridView()
@@ -68,14 +71,13 @@ namespace b209_list_homework_alper_sahin
         {
             dataGridList.ReadOnly = true;
             dataGridList.AllowUserToDeleteRows = false;
-            dataGridList.ColumnCount = 7;
+            dataGridList.ColumnCount = 6;
             dataGridList.Columns[0].Name = "Student No";
             dataGridList.Columns[1].Name = "Name";
             dataGridList.Columns[2].Name = "Surname";
             dataGridList.Columns[3].Name = "Year";
             dataGridList.Columns[4].Name = "City";
             dataGridList.Columns[5].Name = "Department";
-            dataGridList.Columns[6].Name = "Details";
 
 
         }

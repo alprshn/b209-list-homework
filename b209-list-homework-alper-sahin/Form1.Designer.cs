@@ -37,7 +37,7 @@
             // dataGridList
             // 
             dataGridList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridList.Location = new Point(27, 148);
+            dataGridList.Location = new Point(35, 71);
             dataGridList.Name = "dataGridList";
             dataGridList.RowTemplate.Height = 25;
             dataGridList.Size = new Size(1012, 377);
@@ -46,14 +46,14 @@
             // 
             // searchBar
             // 
-            searchBar.Location = new Point(724, 92);
+            searchBar.Location = new Point(732, 15);
             searchBar.Name = "searchBar";
             searchBar.Size = new Size(188, 23);
             searchBar.TabIndex = 1;
             // 
             // searchButton
             // 
-            searchButton.Location = new Point(918, 91);
+            searchButton.Location = new Point(926, 14);
             searchButton.Name = "searchButton";
             searchButton.Size = new Size(75, 23);
             searchButton.TabIndex = 2;
