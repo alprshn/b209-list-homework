@@ -78,8 +78,6 @@ namespace b209_list_homework_alper_sahin
             dataGridList.Columns[3].Name = "Year";
             dataGridList.Columns[4].Name = "City";
             dataGridList.Columns[5].Name = "Department";
-
-
         }
 
         private void searchButton_Click(object sender, EventArgs e)
