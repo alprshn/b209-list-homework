@@ -30,9 +30,14 @@ namespace b209_list_homework_alper_sahin
                 button.UseColumnTextForButtonValue = true; //dont forget this line
             }
 
-            students.Add(new Student("1", "Ahmet", "Yýlmaz", 1998, "Kayseri", "CE"));
-            students.Add(new Student("1", "Ahmet", "Yýlmaz", 1998, "Kayseri", "CE"));
-            students.Add(new Student("1", "Mehmet", "Yýlmaz", 1998, "Kayseri", "CE"));
+            string resimYolu = "C:\\Path\\To\\YourImage.jpg"; // Resmin dosya yolunu doðru þekilde güncelleyi
+            string path = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location);
+
+            students.Add(new Student("1.", "Ahmet", "Yýlmaz", 21, "Kayseri", "CE", 8.57 ,true,2002, path + @"\avatar\1.png"));
+            students.Add(new Student("2.", "Albert", "Greg", 22, "Tetovo", "IE", 9 , true,2001,""));
+            students.Add(new Student("3.", "Mehmet", "Yýlmaz", 20, "Istanbul", "CE", 5, true, 2003, ""));
+            students.Add(new Student("4.", "Lionel", "Messi", 25, "Skopje", "CE", 3.54, false, 1998, ""));
+            students.Add(new Student("5.", "Sandra", "Borova", 28, "London", "ARCH", 6.57, false, 1995, ""));
 
 
             PopulateDataGridView();
@@ -53,9 +58,19 @@ namespace b209_list_homework_alper_sahin
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            
-            Form2 f2 = new Form2(); //this is the change, code for redirect  
-            f2.ShowDialog();
+            if (e.ColumnIndex == dataGridList.Columns["button"].Index && e.RowIndex >= 0)
+            {
+                int selectedStudentIndex = e.RowIndex;
+                if (selectedStudentIndex < students.Count)
+                {
+                    // Öðrencinin detaylarýný göstermek için Form2'yi oluþturun ve gösterin
+                    Form2 f2 = new Form2(students[selectedStudentIndex]);
+                    f2.ShowDialog();
+                }
+            }
+
+           
+
         }
 
         private void PopulateDataGridView()

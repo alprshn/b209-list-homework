@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            pictureBox1 = new PictureBox();
-            label9 = new Label();
-            label10 = new Label();
-            label11 = new Label();
-            label12 = new Label();
-            label13 = new Label();
+            studentPhoto = new PictureBox();
+            activeStudent = new Label();
+            gpaStudent = new Label();
+            birthStudent = new Label();
+            idStudent = new Label();
+            nameStudent = new Label();
             label8 = new Label();
             label7 = new Label();
             label6 = new Label();
@@ -45,18 +45,18 @@
             label2 = new Label();
             label1 = new Label();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)studentPhoto).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridTranscript).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
-            panel1.Controls.Add(pictureBox1);
-            panel1.Controls.Add(label9);
-            panel1.Controls.Add(label10);
-            panel1.Controls.Add(label11);
-            panel1.Controls.Add(label12);
-            panel1.Controls.Add(label13);
+            panel1.Controls.Add(studentPhoto);
+            panel1.Controls.Add(activeStudent);
+            panel1.Controls.Add(gpaStudent);
+            panel1.Controls.Add(birthStudent);
+            panel1.Controls.Add(idStudent);
+            panel1.Controls.Add(nameStudent);
             panel1.Controls.Add(label8);
             panel1.Controls.Add(label7);
             panel1.Controls.Add(label6);
@@ -71,58 +71,60 @@
             panel1.Size = new Size(561, 305);
             panel1.TabIndex = 0;
             // 
-            // pictureBox1
+            // studentPhoto
             // 
-            pictureBox1.Location = new Point(417, 101);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(108, 109);
-            pictureBox1.TabIndex = 14;
-            pictureBox1.TabStop = false;
+            studentPhoto.Location = new Point(405, 101);
+            studentPhoto.Name = "studentPhoto";
+            studentPhoto.Size = new Size(108, 109);
+            studentPhoto.SizeMode = PictureBoxSizeMode.StretchImage;
+            studentPhoto.TabIndex = 14;
+            studentPhoto.TabStop = false;
+            studentPhoto.Click += pictureBox1_Click;
             // 
-            // label9
+            // activeStudent
             // 
-            label9.AutoSize = true;
-            label9.Location = new Point(86, 222);
-            label9.Name = "label9";
-            label9.Size = new Size(40, 15);
-            label9.TabIndex = 13;
-            label9.Text = "Active";
+            activeStudent.AutoSize = true;
+            activeStudent.Location = new Point(86, 222);
+            activeStudent.Name = "activeStudent";
+            activeStudent.Size = new Size(40, 15);
+            activeStudent.TabIndex = 13;
+            activeStudent.Text = "Active";
             // 
-            // label10
+            // gpaStudent
             // 
-            label10.AutoSize = true;
-            label10.Location = new Point(86, 195);
-            label10.Name = "label10";
-            label10.Size = new Size(29, 15);
-            label10.TabIndex = 12;
-            label10.Text = "GPA";
+            gpaStudent.AutoSize = true;
+            gpaStudent.Location = new Point(86, 195);
+            gpaStudent.Name = "gpaStudent";
+            gpaStudent.Size = new Size(29, 15);
+            gpaStudent.TabIndex = 12;
+            gpaStudent.Text = "GPA";
             // 
-            // label11
+            // birthStudent
             // 
-            label11.AutoSize = true;
-            label11.Location = new Point(86, 171);
-            label11.Name = "label11";
-            label11.Size = new Size(32, 15);
-            label11.TabIndex = 11;
-            label11.Text = "Birth";
+            birthStudent.AutoSize = true;
+            birthStudent.Location = new Point(86, 171);
+            birthStudent.Name = "birthStudent";
+            birthStudent.Size = new Size(32, 15);
+            birthStudent.TabIndex = 11;
+            birthStudent.Text = "Birth";
             // 
-            // label12
+            // idStudent
             // 
-            label12.AutoSize = true;
-            label12.Location = new Point(86, 143);
-            label12.Name = "label12";
-            label12.Size = new Size(18, 15);
-            label12.TabIndex = 10;
-            label12.Text = "ID";
+            idStudent.AutoSize = true;
+            idStudent.Location = new Point(86, 143);
+            idStudent.Name = "idStudent";
+            idStudent.Size = new Size(18, 15);
+            idStudent.TabIndex = 10;
+            idStudent.Text = "ID";
             // 
-            // label13
+            // nameStudent
             // 
-            label13.AutoSize = true;
-            label13.Location = new Point(86, 113);
-            label13.Name = "label13";
-            label13.Size = new Size(39, 15);
-            label13.TabIndex = 9;
-            label13.Text = "Name";
+            nameStudent.AutoSize = true;
+            nameStudent.Location = new Point(86, 113);
+            nameStudent.Name = "nameStudent";
+            nameStudent.Size = new Size(39, 15);
+            nameStudent.TabIndex = 9;
+            nameStudent.Text = "Name";
             // 
             // label8
             // 
@@ -216,7 +218,7 @@
             Text = "Form2";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)studentPhoto).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridTranscript).EndInit();
             ResumeLayout(false);
         }
@@ -224,12 +226,12 @@
         #endregion
 
         private Panel panel1;
-        private PictureBox pictureBox1;
-        private Label label9;
-        private Label label10;
-        private Label label11;
-        private Label label12;
-        private Label label13;
+        private PictureBox studentPhoto;
+        private Label activeStudent;
+        private Label gpaStudent;
+        private Label birthStudent;
+        private Label idStudent;
+        private Label nameStudent;
         private Label label8;
         private Label label7;
         private Label label6;
