@@ -18,10 +18,10 @@ namespace b209_list_homework_alper_sahin
         public double GPA { get; set; }
         public bool Status { get; set; }
         public int Birth { get; set; }
-        public string Image { get; set; }
+        public System.Drawing.Bitmap Image { get; set; }
 
 
-        public Student(string number, string name, string surname, int year, string city, string department,double gpa, bool status, int birth,  string image)
+        public Student(string number, string name, string surname, int year, string city, string department,double gpa, bool status, int birth, System.Drawing.Bitmap image)
         {
             StudentNumber = number;
             Name = name;

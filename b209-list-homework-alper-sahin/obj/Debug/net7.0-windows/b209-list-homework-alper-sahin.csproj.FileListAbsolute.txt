@@ -15,3 +15,5 @@ C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alp
 C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\obj\Debug\net7.0-windows\b209-list-homework-alper-sahin.genruntimeconfig.cache
 C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\obj\Debug\net7.0-windows\ref\b209-list-homework-alper-sahin.dll
 C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\obj\Debug\net7.0-windows\b209_list_homework_alper_sahin.Form2.resources
+C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\bin\Debug\net7.0-windows\b209-list-homework-alper-sahin.dll.config
+C:\Users\alper\Desktop\Computer-Engineer\Academic Writing\b209-list-homework-alper-sahin\b209-list-homework-alper-sahin\obj\Debug\net7.0-windows\b209_list_homework_alper_sahin.Properties.Resources.resources

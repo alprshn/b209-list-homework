@@ -20,16 +20,41 @@ namespace b209_list_homework_alper_sahin
         {
             InitializeComponent();
             dataGridViewSettings();
-           
+
 
             selectedStudent = student;
 
             if (selectedStudent.StudentNumber == "1.")
             {
-                studentTranscript.Add(new StudentTranscript("CE-102", 2019, "B"));
-                studentTranscript.Add(new StudentTranscript("CE-102", 2019, "B"));
-                studentTranscript.Add(new StudentTranscript("CE-102", 2019, "B"));
+                studentTranscript.Add(new StudentTranscript("CE-102", 2020, "B"));
+                studentTranscript.Add(new StudentTranscript("CE-432", 2020, "C"));
+                studentTranscript.Add(new StudentTranscript("IE-102", 2020, "B"));
             }
+            if (selectedStudent.StudentNumber == "2.")
+            {
+                studentTranscript.Add(new StudentTranscript("CE-323", 2018, "A"));
+                studentTranscript.Add(new StudentTranscript("IE-102", 2019, "A"));
+                studentTranscript.Add(new StudentTranscript("CE-102", 2018, "B"));
+            }
+            if (selectedStudent.StudentNumber == "3.")
+            {
+                studentTranscript.Add(new StudentTranscript("CE-134", 2019, "A"));
+                studentTranscript.Add(new StudentTranscript("IE-102", 2020, "B"));
+                studentTranscript.Add(new StudentTranscript("CE-102", 2019, "C"));
+            }
+            if (selectedStudent.StudentNumber == "4.")
+            {
+                studentTranscript.Add(new StudentTranscript("CE-102", 2018, "B"));
+                studentTranscript.Add(new StudentTranscript("CE-432", 2018, "D"));
+                studentTranscript.Add(new StudentTranscript("CE-107", 2018, "B"));
+            }
+            if (selectedStudent.StudentNumber == "5.")
+            {
+                studentTranscript.Add(new StudentTranscript("IE-102", 2021, "B"));
+                studentTranscript.Add(new StudentTranscript("CE-102", 2021, "F"));
+                studentTranscript.Add(new StudentTranscript("CE-123", 2019, "B"));
+            }
+
 
             DisplayReceivedStudents();
 
@@ -50,11 +75,11 @@ namespace b209_list_homework_alper_sahin
             else
             {
                 activeStudent.Text = "Inactive";
-                activeStudent.ForeColor= Color.Red;
+                activeStudent.ForeColor = Color.Red;
             }
 
 
-            studentPhoto.Image = new System.Drawing.Bitmap(selectedStudent.Image);
+            studentPhoto.Image = selectedStudent.Image;
         }
 
         private void dataGridTranscript_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -67,7 +92,6 @@ namespace b209_list_homework_alper_sahin
         {
             foreach (var studentTranscripts in studentTranscript)
             {
-                // Add rows to the DataGridView based on the student data
                 dataGridTranscript.Rows.Add(studentTranscripts.Course, studentTranscripts.Year, studentTranscripts.Grade);
             }
         }

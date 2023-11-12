@@ -68,14 +68,15 @@
             panel1.Controls.Add(label1);
             panel1.Location = new Point(151, 54);
             panel1.Name = "panel1";
-            panel1.Size = new Size(561, 305);
+            panel1.Size = new Size(681, 402);
             panel1.TabIndex = 0;
             // 
             // studentPhoto
             // 
-            studentPhoto.Location = new Point(405, 101);
+            studentPhoto.Image = Properties.Resources._4;
+            studentPhoto.Location = new Point(514, 101);
             studentPhoto.Name = "studentPhoto";
-            studentPhoto.Size = new Size(108, 109);
+            studentPhoto.Size = new Size(146, 155);
             studentPhoto.SizeMode = PictureBoxSizeMode.StretchImage;
             studentPhoto.TabIndex = 14;
             studentPhoto.TabStop = false;
@@ -174,17 +175,17 @@
             // dataGridTranscript
             // 
             dataGridTranscript.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridTranscript.Location = new Point(194, 101);
+            dataGridTranscript.Location = new Point(174, 101);
             dataGridTranscript.Name = "dataGridTranscript";
             dataGridTranscript.RowTemplate.Height = 25;
-            dataGridTranscript.Size = new Size(183, 109);
+            dataGridTranscript.Size = new Size(318, 155);
             dataGridTranscript.TabIndex = 3;
             dataGridTranscript.CellContentClick += dataGridTranscript_CellContentClick;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(405, 56);
+            label3.Location = new Point(547, 56);
             label3.Name = "label3";
             label3.Size = new Size(83, 15);
             label3.TabIndex = 2;
@@ -193,7 +194,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(224, 56);
+            label2.Location = new Point(279, 56);
             label2.Name = "label2";
             label2.Size = new Size(102, 15);
             label2.TabIndex = 1;
@@ -212,7 +213,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1010, 554);
             Controls.Add(panel1);
             Name = "Form2";
             Text = "Form2";

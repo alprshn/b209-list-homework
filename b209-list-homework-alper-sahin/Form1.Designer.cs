@@ -36,26 +36,33 @@
             // 
             // dataGridList
             // 
+            dataGridList.BackgroundColor = Color.White;
             dataGridList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridList.GridColor = Color.FromArgb(109, 122, 224);
             dataGridList.Location = new Point(35, 71);
             dataGridList.Name = "dataGridList";
             dataGridList.RowTemplate.Height = 25;
-            dataGridList.Size = new Size(1012, 377);
+            dataGridList.Size = new Size(804, 296);
             dataGridList.TabIndex = 0;
             dataGridList.CellContentClick += dataGridView1_CellContentClick;
             // 
             // searchBar
             // 
-            searchBar.Location = new Point(732, 15);
+            searchBar.Location = new Point(760, 21);
             searchBar.Name = "searchBar";
             searchBar.Size = new Size(188, 23);
             searchBar.TabIndex = 1;
             // 
             // searchButton
             // 
-            searchButton.Location = new Point(926, 14);
+            searchButton.FlatAppearance.BorderColor = Color.Blue;
+            searchButton.FlatAppearance.BorderSize = 2;
+            searchButton.FlatAppearance.MouseDownBackColor = Color.FromArgb(255, 192, 192);
+            searchButton.FlatAppearance.MouseOverBackColor = Color.Navy;
+            searchButton.FlatStyle = FlatStyle.Flat;
+            searchButton.Location = new Point(954, 12);
             searchButton.Name = "searchButton";
-            searchButton.Size = new Size(75, 23);
+            searchButton.Size = new Size(93, 39);
             searchButton.TabIndex = 2;
             searchButton.Text = "Search";
             searchButton.UseVisualStyleBackColor = true;
@@ -65,7 +72,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1070, 562);
+            BackColor = Color.White;
+            ClientSize = new Size(1116, 562);
             Controls.Add(searchButton);
             Controls.Add(searchBar);
             Controls.Add(dataGridList);
